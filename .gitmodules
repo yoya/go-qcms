@@ -1,0 +1,3 @@
+[submodule "qcms/qcms"]
+	path = qcms/qcms
+	url = https://github.com/jrmuizel/qcms.git
