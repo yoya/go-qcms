@@ -2,7 +2,8 @@ package qcms
 
 /*
 #cgo CFLAGS: -Iqcms
-#cgo LDFLAGS: qcms/iccread.o qcms/transform.o qcms/transform-sse2.o qcms/transform-sse1.o
+#cgo LDFLAGS:  -lqcms
+#cgo LDFLAGS:  -L../qcms/qcms/
 #include "qcms.h"
 #include "sum.h"
 */
