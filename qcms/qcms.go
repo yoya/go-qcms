@@ -1,9 +1,9 @@
 package qcms
 
 /*
-#cgo CFLAGS: -Iqcms
+#cgo CFLAGS: -I../lib
 #cgo LDFLAGS:  -lqcms
-#cgo LDFLAGS:  -L../qcms/qcms/
+#cgo LDFLAGS:  -L../lib
 #include "qcms.h"
 #include "sum.h"
 */
