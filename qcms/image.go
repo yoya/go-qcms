@@ -26,7 +26,7 @@ func ImageTransformByProfile(src_image image.Image, src_prof, dst_prof *Profile)
 	} else {
 		src_rgba = src_image.(*image.RGBA) // type assertions
 	}
-	transform := CreateTransform(src_prof, DATA_RGB_8, dst_prof, DATA_RGB_8)
+	transform := CreateTransform(src_prof, DATA_RGBA_8, dst_prof, DATA_RGBA_8)
 	defer transform.DeleteTransform()
 	if transform == nil {
 		return nil, fmt.Errorf("ImageTransformByProfile: CreateTransform Failedl(%d)", colorModel)
